@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+/* MAIN CONTAINER PROPERTIES */
+.container {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+}
+/* CART BTN PROPERTIES */
+.Cart {
+  position: fixed;
+  left: 770px;
+  top: 45px;
+}
+/* PERSON LOGO BTN PROPERTIES */
+.Dashboard {
+  top: 45px;
+  left: 845px;
+  position: fixed;
+}
+/* NAVIGATION PROPERTIES */
+.navbar {
+  background-color: rgba(189, 163, 124, 0.932);
+  width: 100%;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  align-items: right;
+  list-style: none;
+  font: bold;
+  position: fixed;
+  top: 50px;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 20px;
+  height: 30px;
+  font-family: "Poppins", sans-serif;
+  word-spacing: 20px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: snow;
+  position: relative;
+  left: 900px;
+  top: 50px;
+  font-size: 24pt;
+  font-family: "Poppins", sans-serif;
+}
+ul li a::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background: rgba(92, 39, 8, 0.836);
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+ul li a:hover {
+  color: rgba(92, 39, 8, 0.836);
+}
+a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+/* MAIN LOGO SHOP */
+.logo {
+  position: fixed;
+  left: 50px;
+  top: 60px;
+}
+/* ABOUT LABEL SA FIRST GLASS COINTAINER */
+.about_txt {
+  position: fixed;
+  top: 350px;
+  left: 850px;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* BACKGROUND MAIN IMAGE COFFEE white CUP */
+.whitemug {
+  position: fixed;
+  top: 200px;
+  height: 900px;
+  width: 100%;
+}
+/* ABOUT DETAILS */
+.first_line {
+  position: fixed;
+  font-family: "Poppins", sans-serif;
+  top: 450px;
+  left: 250px;
+  text-shadow: black;
+  font-size: 26px;
+  text-justify: inter-word;
+}
+/* DETAILS ABOUT SA SHOP HOLDER */
+.GLASS1 {
+  position: absolute;
+  pointer-events: none;
+  width: 1500px;
+  height: 350px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+  background: rgba(189, 163, 124, 0.932);
+  backdrop-filter: blur(5%);
+  top: 300px;
+  left: 200px;
+}
+.GLASS1 :hover {
+  opacity: 1;
+  padding-bottom: 10px;
+
+  font-size: 30px;
+  font-weight: 900;
+
+  transition: all 0.3s ease-in-out;
+
+  box-shadow: rgb(155, 119, 103);
+
+  color: rgb(245, 189, 116);
+}
+
+.about_txt:hover {
+  box-shadow: rgb(155, 119, 103);
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+/* CONTAINER NG ADDRESS AT SCHDULE MG SHOP */
+.GLASS2 {
+  position: fixed;
+  pointer-events: none;
+  width: 1500px;
+  height: 200px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+  background: rgba(26, 24, 21, 0.932);
+  backdrop-filter: blur(5px);
+  top: 700px;
+  left: 200px;
+  border: rgb(53, 31, 2);
+}
+/* OPERATIONAL TIME NG SHOP SECOND CONTAINER */
+.Schedule {
+  position: fixed;
+  top: 750px;
+  left: 400px;
+  text-shadow: black;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  color: azure;
+}
+.Schedule:hover {
+  box-shadow: rgb(155, 119, 103);
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+/* ADDRESS LOCATION SECON CONTAINER YUMG SA RIGHT PART NA ADRESS */
+.AdressLocation {
+  position: fixed;
+  top: 750px;
+  left: 1150px;
+  text-shadow: black;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  color: azure;
+}
+.AdressLocation:hover {
+  box-shadow: rgb(155, 119, 103);
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+/* BROWN NA BAR SA PINAKA TAAS*/
+.upBARContainer {
+  position: fixed;
+  top: 0px;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(92, 39, 8, 0.836);
+}

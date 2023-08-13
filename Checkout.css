@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+/* MAIN CONTAINER PROPERTIES */
+.container {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+}
+/* CART BTN PROPERTIES */
+.Cart {
+  position: fixed;
+  left: 770px;
+  top: 45px;
+}
+/* PERSON LOGO BTN PROPERTIES */
+.Dashboard {
+  top: 45px;
+  left: 845px;
+  position: fixed;
+}
+/* NAVIGATION PROPERTIES */
+.navbar {
+  background-color: rgba(189, 163, 124, 0.932);
+  width: 100%;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  align-items: right;
+  list-style: none;
+  font: bold;
+  position: fixed;
+  top: 50px;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 20px;
+  height: 30px;
+  font-family: "Poppins", sans-serif;
+  word-spacing: 20px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: snow;
+  position: relative;
+  left: 900px;
+  top: 50px;
+  font-size: 24pt;
+
+  font-family: "Poppins", sans-serif;
+}
+ul li a::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background: rgba(92, 39, 8, 0.836);
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+ul li a:hover {
+  color: rgba(92, 39, 8, 0.836);
+}
+a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* MAIN LOGO SHOP */
+.logo {
+  position: fixed;
+  left: 50px;
+  top: 60px;
+}
+/* MAIN CONTAINER NG ORDERS */
+.OrdersContainer {
+  font-family: "Poppins", sans-serif;
+  position: fixed;
+  width: 100%;
+  height: 900px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+  background: white;
+  top: 200px;
+  justify-content: center;
+  display: block;
+  z-index: 10%;
+}
+/* YUNG BROWN SAA PINAKA TAAS */
+.upBARContainer {
+  position: fixed;
+  top: 0px;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(92, 39, 8, 0.836);
+}
+/* CHECKOUT BUTTON  */
+.Checkout {
+  font-family: "Poppins", sans-serif;
+  min-height: 45px;
+  min-width: 161px;
+  font-weight: 700;
+  color: rgba(92, 39, 8, 0.836);
+  font-size: 23px;
+  position: fixed;
+  top: 242px;
+  left: 100px;
+  font-size: 45px;
+}
+/* BACK ARROW BUTTON SA TABI NG CHECKOUT */
+.Arrow {
+  height: 45px;
+  width: 70px;
+  position: fixed;
+  top: 250px;
+  left: 10px;
+  color: rgba(92, 39, 8, 0.836);
+}

@@ -1,0 +1,70 @@
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="TheDesign.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<title>The Hemingway</title>
+</head>
+
+<body>
+
+	<div class="header"></div>
+
+	<div class="main">
+
+		<div class="nav">
+
+			<div class="logo">
+
+				<img src="./vector/thLogo.svg">
+
+			</div>
+
+			<div class="menu">
+
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Menu</a></li>
+					<li><a href="About.php">About</a></li>
+					<li><a href="Contact.php">Contact</a></li>
+					<li><a href="Cart.php"><img src="./vector/thCart.svg" height=30px width="30px"></a></li>
+					<!--put person image/icon here-->
+					<li class="Dashboard"><a href="Dashboard.html" target=""><img src="images/icons/user-multi-size.ico" height="30px" width="30px" alt="Cart" /></a></li>
+					<li><button class="logb"><a href="Login.php"></a>Login</button></li>
+				</ul>
+
+			</div>
+
+		</div>
+
+		<div class="line"></div>
+
+		<h2 class="point-message">
+            <!--put person image/icon here
+			<?php
+
+			if (isset($_SESSION['order'])) {
+				echo $_SESSION['order'];
+				unset($_SESSION['order']);
+			}
+
+			?>-->
+		</h2>
+
+		<div class="message">
+
+			<p>Enjoy reading while sipping your coffee.</p>
+			<h1>Let's Have A <br> Coffee Time!</h1>
+			<button><a href="Menu.php">SHOP NOW</a></button>
+
+		</div>
+
+	</div>
+
+    <?php include('partials/fe-footer.php') ?>

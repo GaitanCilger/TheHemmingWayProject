@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+/* MAIN CONTAINER PROPERTIES */
+.container {
+  background: rgba(189, 163, 124, 0.932);
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+/* CART BTN PROPERTIES */
+.Cart {
+  position: fixed;
+  left: 770px;
+  top: 45px;
+}
+/* PERSON LOGO BTN PROPERTIES */
+.Dashboard {
+  top: 45px;
+  left: 845px;
+  position: fixed;
+}
+/* NAVIGATION PROPERTIES */
+.navbar {
+  background-color: rgba(189, 163, 124, 0.932);
+  width: 100%;
+  height: 150px;
+  margin: auto;
+  display: flex;
+  align-items: right;
+  list-style: none;
+  font: bold;
+  position: fixed;
+  top: 50px;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 20px;
+  height: 30px;
+  font-family: "Poppins", sans-serif;
+  word-spacing: 20px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: snow;
+  position: relative;
+  left: 900px;
+  top: 50px;
+  font-size: 24pt;
+  font-family: "Poppins", sans-serif;
+}
+ul li a::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background: rgba(92, 39, 8, 0.836);
+  /*transition: transform 0.5s;*/
+  transform: scaleX(0);
+  transform-origin: right;
+}
+ul li a:hover {
+  color: rgba(92, 39, 8, 0.836);
+}
+a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+/* MAIN LOGO SHOP */
+.logo {
+  position: fixed;
+  left: 50px;
+  top: 60px;
+}
+.upBARContainer {
+  position: fixed;
+  top: 0px;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(92, 39, 8, 0.836);
+}
+/* BACKGROUND MAIN IMAGE COFFEE IN CUP */
+.transparentBackground {
+  position: fixed;
+  top: 200px;
+  left: 100px;
+  height: 950px;
+  width: 1000px;
+  right: 200px;
+}
+/* HORIZONTAL LINE */
+H3 {
+  position: fixed;
+  top: 190px;
+}
+/* FIRST SLOGAN */
+.istQuote {
+  position: fixed;
+  top: 500px;
+  left: 200px;
+  font-size: 200%;
+  color: azure;
+  font-family: "Times New Roman", Times, serif;
+}
+/* HAVE A COFFEE QUOTE */
+.secQuote {
+  position: fixed;
+  top: 600px;
+  left: 200px;
+  font-size: 500%;
+  color: azure;
+  font-style: italic;
+}
+/* SHOP NOW BUTTON */
+.btn_shop_now {
+  position: fixed;
+  top: 750px;
+  left: 250px;
+  size: 50%;
+  shape-margin: 5px;
+  border-style: solid;
+  border-color: azure;
+}
+.btn_shop_now:hover {
+  opacity: 1;
+  padding-bottom: 10px;
+
+  font-size: 30px;
+  font-weight: 900;
+
+  transition: all 0.3s ease-in-out;
+
+  box-shadow: rgb(155, 119, 103);
+
+  color: rgb(245, 189, 116);
+}
+
+.btn_shop_now:hover {
+  box-shadow: rgb(155, 119, 103);
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}

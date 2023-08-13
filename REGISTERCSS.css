@@ -1,0 +1,134 @@
+body {
+  background-size: cover;
+  justify-content: center;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(189, 163, 124, 0.932);
+}
+
+.BgImage {
+  position: fixed;
+  background-image: url(coffeeC.jpg);
+  height: 100vh;
+  width: 100vh;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-position: center;
+}
+
+h1 {
+  position: fixed;
+  align-items: center;
+  color: aliceblue;
+  left: 705px;
+  top: 50px;
+  font-size: 70px;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  position: fixed;
+  color: aliceblue;
+  left: 745px;
+  font-size: 20px;
+  bottom: 20px;
+}
+
+.Register {
+  width: 360px;
+  padding: 10% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: fixed;
+  bottom: 270px;
+  z-index: 1;
+  background-color: rgba(189, 163, 124, 0.932);
+  width: 360px;
+  height: 250px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  left: 720px;
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 1;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: rgba(92, 39, 8, 0.836);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.form button:hover,
+.form button:active {
+  background: rgb(155, 119, 103);
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: aliceblue;
+  font-size: 13px;
+}
+
+.form .message a {
+  color: rgba(92, 39, 8, 0.836);
+  text-decoration: none;
+}
+
+.form .register {
+  display: contents;
+}
+
+.FB {
+  position: fixed;
+  left: 840px;
+  top: 620px;
+}
+.FB:hover {
+  box-shadow: black;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.fbLbl {
+  position: fixed;
+  left: 830px;
+  top: 670px;
+  font-size: 20px;
+  color: azure;
+}
+
+.IG {
+  position: fixed;
+  left: 1000px;
+  top: 620px;
+}
+.IG:hover {
+  box-shadow: black;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.IgLbl {
+  position: fixed;
+  left: 990px;
+  top: 670px;
+  font-size: 20px;
+  color: azure;
+}

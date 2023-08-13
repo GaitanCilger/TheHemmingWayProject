@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background: rgba(189, 163, 124, 0.932);
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.Cart {
+  position: fixed;
+  left: 790px;
+  top: 45px;
+}
+/* PERSON LOGO BTN PROPERTIES */
+.Dashboard {
+  top: 45px;
+  left: 860px;
+  position: fixed;
+}
+/* NAVIGATION PROPERTIES */
+.navbar {
+  background-color: rgba(189, 163, 124, 0.932);
+  width: 100%;
+  height: 150px;
+  margin: auto;
+  display: flex;
+  align-items: right;
+  list-style: none;
+  font: bold;
+  position: fixed;
+  top: 50px;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 20px;
+  height: 30px;
+  font-family: "Poppins", sans-serif;
+  word-spacing: 20px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: snow;
+  position: relative;
+  left: 900px;
+  top: 50px;
+  font-size: 24pt;
+  font-family: "Poppins", sans-serif;
+}
+ul li a::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background: rgba(92, 39, 8, 0.836);
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+ul li a:hover {
+  color: rgba(92, 39, 8, 0.836);
+}
+a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+/* MAIN LOGO SHOP */
+.logo {
+  position: fixed;
+  left: 50px;
+  top: 60px;
+}
+/* UPPER BLOCK COLOR BROWN */
+.upBARContainer {
+  position: fixed;
+  top: 0px;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(92, 39, 8, 0.836);
+}
+/* ORDERS HISTORY LABEL*/
+h1 {
+  position: fixed;
+  font-family: "Poppins", sans-serif;
+  top: 270px;
+  left: 850px;
+  font-size: 7s0px;
+}
+/* HORIZONTAL LINE WHITE */
+H3 {
+  position: fixed;
+  top: 188px;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+/* TABLE  */
+table {
+  position: relative;
+  width: 1000px;
+  line-height: 40px;
+  top: 100px;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  mask-border-width: 20cm;
+  background-color: azure;
+}
+
+th,
+td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: black;
+}
+
+th {
+  text-align: left;
+  background-color: rgba(92, 39, 8, 0.836);
+}
+tr :hover :not() {
+  background-color: azure;
+}
+td :hover :before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -9999px;
+  bottom: -9999px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: -1;
+}
+/* TABLE HOLDER */
+.TableHolder {
+  position: fixed;
+  height: 500px;
+  width: 1000px;
+  background-color: azure;
+  top: 300px;
+}
